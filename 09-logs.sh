@@ -1,7 +1,8 @@
 #!/bin/bash
 ID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
-LOGFILE="$0-$TIMESTAMP.log"
+LOGFILE="/tmp/$0-$TIMESTAMP.log"
+echo Logfile is::$LOGFILE
 VALIDATE(){
     if [ $1 -ne 0 ]
     then
