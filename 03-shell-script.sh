@@ -2,6 +2,6 @@
 echo "please enter your username:"
 read -s USERNAME
 echo "please enter your password:"
-read -S PASSWORD
+read -s PASSWORD
 echo "username is: $USERNAME"
 echo "password is: $PASSWORD"
