@@ -9,7 +9,9 @@ echo "please enter today"
 read TODAY
 if [ $TODAY != "sunday" ]
 then
-echo "go to school"
-else
+#echo "go to school"
 echo "happy holiday"
+else
+#echo "happy holiday"
+echo "go to school"
 fi
