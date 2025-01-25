@@ -7,7 +7,7 @@
 # echo "All the fruits: ${FRUITS[@]}"
 echo "please enter today"
 read TODAY
-if [$TODAY!="sunday"]
+if [ $TODAY != "sunday" ]
 then
 echo "go to school"
 else
