@@ -32,10 +32,12 @@
 ID=$(id -u)
 if [ $ID -ne 0 ]
 then
-    echo "Error:: please run with root user"
+    #echo "Error:: please run with root user"
+    echo "You are root user"
     #exit 2
 else
-    echo "You are root user"
+    #echo "You are root user"
+    echo "Error:: please run with root user"
 fi
 
 yum install mysql -y
