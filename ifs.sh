@@ -16,4 +16,5 @@ do
     echo "user-id: $user_id"
     echo "user full name: $user_fullname"
     echo "user full name: $home_dir"
+    echo "shell path: $shell_path"
 done <$FILE
