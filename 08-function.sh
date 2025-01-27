@@ -31,10 +31,10 @@ echo "script name: $0"
 VALIDATE(){
 if [ $? -ne 0 ]
 then
-    echo "Error:: Installing  is failed"
+    echo "Error:: Installing mysql is failed"
     exit 1
 else
-    echo "Installing  is success"
+    echo "Installing mysql is success"
 fi
 
 }
