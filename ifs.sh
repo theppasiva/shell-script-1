@@ -15,4 +15,5 @@ do
     echo "username: $username"
     echo "user-id: $user_id"
     echo "user full name: $user_fullname"
+    echo "user full name: $home_dir"
 done <$FILE
