@@ -54,7 +54,7 @@ usermod -aG docker centos
 
 VALIDATE $? "added centos user to docker group"
 
-curl -L https://github.com/docker/compose/releases/download/2.24.6/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/2.34.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
 chmod +x /usr/local/bin/docker-compose
 
